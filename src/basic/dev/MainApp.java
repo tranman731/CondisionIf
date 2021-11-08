@@ -7,7 +7,7 @@ public class MainApp {
 	public static void main(String[] args) 	{
 		Scanner sc = new Scanner(System.in);
 		/**
-		 * 9.4
+		 * 9.4 Viết chương trình giải phương trình bậc 2
 		 */
 		System.out.println("Nhập phương trình bậc 2 , a =");
 		float a = sc.nextFloat();
@@ -40,7 +40,7 @@ public class MainApp {
 				System.out.println("Phương trình vô nghiệm!");
 			}		
 			/**
-			 * 9.1			 
+			 * 9.1	Viết chương trình nhập vào một số nguyên. Kiểm tra số đó nguyên dương hay nguyên âm. In ra màn hình kết quả	 
 			 */
 			System.out.println("Nhap vào so nguyen e");
 			int e = sc.nextInt();
@@ -50,7 +50,7 @@ public class MainApp {
 				System.out.println("e la so nguyen am ");
 			}
 			/**
-			 * 9.2
+			 * 9.2 Viết chương trình nhập vào một số nguyên n. Kiểm tra n chia hết cho 3 hay 5. In kết quả ra màn hình
 			 */
 			System.out.println("Nhap vao so nguyen n");
 			int n = sc.nextInt();
@@ -65,7 +65,7 @@ public class MainApp {
 				System.out.println("n khong chia het cho 5");
 			}
 			/**
-			 * 9.3
+			 * 9.3 Viết chương trình nhập vào tháng trong năm.In ra số ngày của tháng đó
 			 */
 			System.out.println("Mời bạn nhập tháng ");
 			int month = sc.nextInt();
@@ -80,7 +80,7 @@ public class MainApp {
 			
 			}	
 			/**
-			 * 9.5
+			 * 9.5 Viết chương trình nhập vào 3 sốa, b, c. Kiểm tra có phải là 3 cạnh của một tam giác không?
 			 */
 		System.out.println("Nhap canh a :");
 		double v = sc.nextDouble();	
